@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_poster"
+            android:layout_width="match_parent"
+            android:contentDescription="@string/image_poster_desc"
+            android:layout_height="256dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_below="@id/image_poster"
+            android:text="@string/text_title_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_release_date"
+            android:text="@string/text_release_sample"
+            android:layout_below="@id/text_title"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="24dp" />
+        <ImageView
+            android:id="@+id/image_rating"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/image_rate_desc"
+            android:layout_below="@id/text_title"
+            android:src="@drawable/ic_star"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <TextView
+            android:id="@+id/text_rate"
+            android:text="@string/text_rate_sample"
+            android:layout_toLeftOf="@id/image_rating"
+            android:layout_below="@id/text_title"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="24dp" />
+        <TextView
+            android:id="@+id/text_synopsis"
+            android:layout_below="@id/text_release_date"
+            android:text="@string/text_synopsis_sample"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>

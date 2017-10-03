@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie List</string>
+    <string name="text_release_sample">16 Dec 1995</string>
+    <string name="text_rate_sample">7.1</string>
+    <string name="text_synopsis_sample">An Amazon princess comes to the world of Man to become the greatest of the female superheroes.</string>
+    <string name="text_title_sample">Wonder Woman</string>
+    <string name="app_detail">Movie Detail</string>
+    <string name="image_poster_desc">Show Poster</string>
+    <string name="image_rate_desc">Show Star Icon</string>
+    <string-array name="spinner_entries">
+        <item>Sort by popularity</item>
+        <item>Sort by rate</item>
+    </string-array>
+</resources>
